@@ -3,8 +3,8 @@ import eye from './assets/eye.jpg';
 import './App.css'
 
 function App() {
-  const name = "PRADEEPASRI S";
-  const regno = 212221220038;
+  const name = "Thanga Deepika R";
+  const regno = 212221040170;
   const [isVisibile, setVisibile] = useState(false)
   const update = () => {
     if(isVisibile)
@@ -25,7 +25,7 @@ function App() {
         <h2>Name: {name}</h2>
         <p>Registration No: {regno}</p>
         <button onClick={() => update()} className='show-details'>Show Details</button>
-        {isVisibile ? <p>Department : IT</p> : <p></p>}
+        {isVisibile ? <p>Department : CSE</p> : <p></p>}
       </div>
     </React.Fragment>
   )
